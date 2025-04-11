@@ -1,0 +1,21 @@
+# Commands Used in Code Coverage Assignment
+
+# 1. Install coverage.py
+pip install coverage
+# Installs the `coverage` package used to measure code coverage in Python.
+
+# 2. Run unit tests with coverage tracking
+coverage run -m unittest discover
+# Runs all unit tests in the current directory and collects coverage data.
+
+# 3. Generate coverage report in the terminal
+coverage report
+# Displays a summary of code coverage including statements, missed lines, and percentage covered.
+
+# 4. Generate an HTML coverage report
+coverage html
+# Creates a detailed HTML report of code coverage in an `htmlcov` folder. Open `htmlcov/index.html` in a browser to view.
+
+# 5. Run unit tests normally (for debugging)
+python -m unittest discover
+# Runs all test files matching the pattern `test*.py` in the current directory.
